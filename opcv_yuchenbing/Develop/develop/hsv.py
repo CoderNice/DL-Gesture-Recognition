@@ -5,26 +5,28 @@
 """
 import cv2
 import numpy as np
-<<<<<<< HEAD
-#import imutils
-=======
 import imutils
->>>>>>> 444c7f92923fbff059611f7aed38608ca6bc2a6e
+import time
+
 cap=cv2.VideoCapture(0)
+time.sleep(1)
 while(1):
 # 获取每一帧
     ret,frame=cap.read()
-<<<<<<< HEAD
+
     #frame = imutils.resize(frame, width = 1000)
-=======
+
     frame = imutils.resize(frame, width = 1000)
->>>>>>> 444c7f92923fbff059611f7aed38608ca6bc2a6e
+
     # 转换到HSV
     converted=cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
 
+    #转换到gray
+    imgray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
+
     # 设定蓝色的阈值
-    lower = np.array([0, 48, 80])
-    upper = np.array([20, 255, 255])
+    lower = np.array([0, 48, 80],dtype = "uint8")
+    upper = np.array([20, 255, 255],dtype = "uint8")
 
     # 根据阈值构建掩模
     skinMask=cv2.inRange(converted,lower,upper)
@@ -37,12 +39,32 @@ while(1):
 
     #kernel = np.ones((5,5),np.uint8)
     kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (11, 11))
-    skinMask = cv2.erode(skinMask, kernel, iterations = 1)
-    skinMask = cv2.dilate(skinMask, kernel, iterations = 1)
+
+    #方法1：开运算(相当于腐蚀膨胀)
+    skinMask = cv2.morphologyEx(skinMask, cv2.MORPH_OPEN, kernel)
+
+    #方法2：腐蚀膨胀
+    #skinMask = cv2.erode(skinMask, kernel, iterations = 1)
+    #skinMask = cv2.dilate(skinMask, kernel, iterations = 1)
     #dilation1 = cv2.dilate(skinMask,kernel,iterations = 1)
     #erosion1 = cv2.erode(dilation1,kernel,iterations = 1)
+
+
+    #方法3：闭运算（噪声很大...）
+    #skinMask = cv2.morphologyEx(skinMask, cv2.MORPH_CLOSE, kernel)
+
+
     skinMask = cv2.GaussianBlur(skinMask, (3, 3), 0)
     #skin = cv2.bitwise_and(frame, frame, mask = skinMask)
+
+
+    ret,thresh = cv2.threshold(imgray,127,255,0)
+    image, contours, hierarchy = cv2.findContours(thresh,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+    cnt = contours[0]
+    rect = cv2.minAreaRect(cnt)
+    box = cv2.boxPoints(rect)
+    box = np.int0(box)
+    im = cv2.drawContours(skinMask,[box],0,(255,0,255),2)
     cv2.imshow("images", skinMask)
     # 显示图像
     #cv2.imshow('frame',frame)
@@ -53,8 +75,5 @@ while(1):
         break
 
 cap.release()
-<<<<<<< HEAD
+
 cv2.destroyAllWindows()
-=======
-cv2.destroyAllWindows()
->>>>>>> 444c7f92923fbff059611f7aed38608ca6bc2a6e

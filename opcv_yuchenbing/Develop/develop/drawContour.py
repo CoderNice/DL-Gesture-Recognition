@@ -12,7 +12,7 @@ upper_blue = np.array([50, 200, 200])
 # 根据阈值构建掩模
 mask = cv2.inRange(hsv, lower_blue, upper_blue)
 
-image, contours, hierarchy = cv2.findContours(mask,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+image, contours, hierarchy = cv2.findContours(mask,cv2.RETR_CCOMP,cv2.CHAIN_APPROX_SIMPLE)
 
 cnt = contours[0]
 x,y,w,h = cv2.boundingRect(cnt)
