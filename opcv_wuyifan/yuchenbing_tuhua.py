@@ -8,7 +8,7 @@ Created on Fri Jan 19 23:13:26 2018
 import cv2
 import numpy as np
 
-im = cv2.imread('image/thumb.jpg')
+im = cv2.imread('test001.jpg')
 imgray = cv2.cvtColor(im,cv2.COLOR_BGR2GRAY)
 ret, thresh = cv2.threshold(imgray, 127, 255,0)
 img,contours,hierarchy = cv2.findContours(thresh,2,1)
