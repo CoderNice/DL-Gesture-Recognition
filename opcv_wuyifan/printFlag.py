@@ -32,12 +32,12 @@ while(1):
     
     # 对原图像和掩模进行位运算
     res=cv2.bitwise_and(frame,frame,mask=mask)
-    
-    # 显示图像
     #cv2.imshow('frame',frame)
     cv2.imshow('mask',mask)
     cv2.imshow('erosion',erosion)
-    cv2.imshow('dilation',dilation)
+    #cv2.imshow('dilati
+    
+    # 显示图像on',dilation)
     #cv2.imshow('res',res)
     k=cv2.waitKey(5)&0xFF
     if k==27:
