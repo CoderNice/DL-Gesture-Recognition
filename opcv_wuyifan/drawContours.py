@@ -13,14 +13,17 @@ img = cv2.imread('test001.jpg')
 imgray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 #cv2.imwrite('messigray.png',imgray)
 #区分？
+'''
 ret,thresh = cv2.threshold(imgray,127,255,0)
 cv2.imwrite('thresh127 0.png',thresh)
 kernel = np.ones((5,5),np.uint8)
 thresh = cv2.erode(thresh,kernel,iterations = 1)
 cv2.imwrite('thresh127 1.png',thresh)
+'''
 #cv2.imwrite('thresh127.png',thresh)
 
-image, contours, hierarchy = cv2.findContours(thresh,cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE )
+
+#image, contours, hierarchy = cv2.findContours(thresh,cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE )
 #cv2.imwrite('image_find2.png',image)
 #img = cv2.drawContour(img, contours, -1, (0,255,0), 3)
 cnt = contours[0]
