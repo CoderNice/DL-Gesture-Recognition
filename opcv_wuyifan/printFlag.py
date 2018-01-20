@@ -26,14 +26,19 @@ while(1):
     
     # 根据阈值构建掩模
     mask=cv2.inRange(hsv,lower_blue,upper_blue)
+    kernel = np.ones((5,5),np.uint8)
+    erosion = cv2.dilate(mask,kernel,iterations = 1)
+    dilation = cv2.erode(erosion,kernel,iterations = 1)
     
     # 对原图像和掩模进行位运算
     res=cv2.bitwise_and(frame,frame,mask=mask)
     
     # 显示图像
-    cv2.imshow('frame',frame)
+    #cv2.imshow('frame',frame)
     cv2.imshow('mask',mask)
-    cv2.imshow('res',res)
+    cv2.imshow('erosion',erosion)
+    cv2.imshow('dilation',dilation)
+    #cv2.imshow('res',res)
     k=cv2.waitKey(5)&0xFF
     if k==27:
         break
