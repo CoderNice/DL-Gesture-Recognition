@@ -5,12 +5,20 @@
 """
 import cv2
 import numpy as np
+<<<<<<< HEAD
 #import imutils
+=======
+import imutils
+>>>>>>> 444c7f92923fbff059611f7aed38608ca6bc2a6e
 cap=cv2.VideoCapture(0)
 while(1):
 # 获取每一帧
     ret,frame=cap.read()
+<<<<<<< HEAD
     #frame = imutils.resize(frame, width = 1000)
+=======
+    frame = imutils.resize(frame, width = 1000)
+>>>>>>> 444c7f92923fbff059611f7aed38608ca6bc2a6e
     # 转换到HSV
     converted=cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
 
@@ -45,4 +53,8 @@ while(1):
         break
 
 cap.release()
+<<<<<<< HEAD
 cv2.destroyAllWindows()
+=======
+cv2.destroyAllWindows()
+>>>>>>> 444c7f92923fbff059611f7aed38608ca6bc2a6e
