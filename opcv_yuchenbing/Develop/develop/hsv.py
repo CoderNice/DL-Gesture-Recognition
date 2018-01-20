@@ -19,6 +19,9 @@ while(1):
     # 对原图像和掩模进行位运算
     res=cv2.bitwise_and(frame,frame,mask=mask)
     # 显示图像
+
+
+
     #cv2.imshow('frame',frame)
     cv2.imshow('mask',mask)
     #cv2.imshow('res',res)
