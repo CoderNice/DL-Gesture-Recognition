@@ -25,7 +25,8 @@ while(1):
     upper_blue=np.array([50,200,200])
     
     # 根据阈值构建掩模
-    mask=cv2.inRange(hsv,lower_blue,upper_blue)
+    mask=cv2.inRange(hslower = np.array([0, 48, 80])
+    upper = np.array([20, 255, 255])v,lower_blue,upper_blue)
     kernel = np.ones((5,5),np.uint8)
     erosion = cv2.dilate(mask,kernel,iterations = 1)
     dilation = cv2.erode(erosion,kernel,iterations = 1)
