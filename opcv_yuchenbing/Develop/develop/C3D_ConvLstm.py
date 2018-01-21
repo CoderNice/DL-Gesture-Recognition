@@ -1,4 +1,4 @@
-from ops import *
+from net.ops import *
 
 weights = {
     'wc3d1': weight_variable('wc3d1', shape=[3, 3, 3, 3, 64]),
