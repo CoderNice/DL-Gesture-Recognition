@@ -1,4 +1,5 @@
 import sys
+from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QWidget, QApplication, QGroupBox, QPushButton, QLabel,  QVBoxLayout,  QHBoxLayout, QTextEdit
 
 class GUI(QWidget):
@@ -17,8 +18,10 @@ class GUI(QWidget):
     def creatHboxGroupBox(self):
         self.hboxGroupBox = QGroupBox("Hbox layout")
         layout = QHBoxLayout()
-        nameLabel = QLabel("放图片o oooooooooooooo")
-        #QLabel.setPicture(nameLabel,'thumb.jpg')
+        nameLabel = QLabel("视频")
+        pixmap = QPixmap('thumb.jpg')
+        nameLabel.setPixmap(pixmap)
+        nameLabel.show()
         layout.addWidget(nameLabel)
         self.hboxGroupBox.setLayout(layout)
         self.setWindowTitle('Basic Layout')
