@@ -15,7 +15,7 @@ from PyQt5.QtWidgets import QWidget, QApplication, QGroupBox, QPushButton, QLabe
 
 class Communicate(QObject):
     closeApp = pyqtSignal()
-
+    closeApp2 = pyqtSignal(self,QTextEdit)
 
 class Thread(QThread):
     changePixmap = pyqtSignal(QPixmap)
@@ -54,8 +54,8 @@ class Thread(QThread):
             rgbImage = cv2.cvtColor(cur_frame, cv2.COLOR_BGR2RGB)
             convertToQtFormat = QImage(rgbImage.data, rgbImage.shape[1], rgbImage.shape[0], QImage.Format_RGB888)
             convertToQtFormat = QPixmap.fromImage(convertToQtFormat)
-            p = convertToQtFormat.scaled(640, 480, Qt.KeepAspectRatio)
-            print(p)
+            p = convertToQtFormat.scaled(360, 640, Qt.KeepAspectRatio)
+            print(p.size())
             self.changePixmap.emit(p)
             #img = QImage(cur_frame, cur_frame.shape[1], cur_frame.shape[0], QImage.Format_RGB888)
             #pix = QPixmap.fromImage(img)
