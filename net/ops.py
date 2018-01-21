@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
 
-from net.cell import ConvLSTMCell
+from cell import ConvLSTMCell
 
 
 def conv_lstm_layer(name, x, shape, filters, kernel=None):
