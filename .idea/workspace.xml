@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d38df452-b574-4b17-88ab-cef8ae890bb6" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/DL-Gesture-Recognition.iml" afterPath="$PROJECT_DIR$/.idea/DL-Gesture-Recognition.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/opcv_wuyifan/frame_rec1.jpg" afterPath="" />
@@ -33,6 +34,9 @@
       <change beforePath="$PROJECT_DIR$/opcv_yuchenbing/.idea/opcv_yuchenbing.iml" afterPath="$PROJECT_DIR$/opcv_yuchenbing/.idea/opcv_yuchenbing.iml" />
       <change beforePath="$PROJECT_DIR$/opcv_yuchenbing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/opcv_yuchenbing/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI2.py" afterPath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI2.py" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py" afterPath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,13 +45,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="yuchenbing_tuhua.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opcv_wuyifan/yuchenbing_tuhua.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+            <state relative-caret-position="255">
+              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
               <folding />
             </state>
           </provider>
@@ -63,22 +76,42 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="printFlag.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opcv_wuyifan/printFlag.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="newGUI2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="getHSV.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opcv_wuyifan/getHSV.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+=======
+      <file leaf-file-name="GUI.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,8 +119,27 @@
       <file leaf-file-name="newGUI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="newGUI.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="hsv2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/hsv2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
               <folding />
             </state>
           </provider>
@@ -96,28 +148,49 @@
       <file leaf-file-name="drawRec.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opcv_wuyifan/drawRec.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+            <state relative-caret-position="960">
+              <caret line="64" column="46" lean-forward="false" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="drawContours.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opcv_wuyifan/drawContours.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="hsv3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hsv3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="GUI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/opcv_wuyifan/DL-Gesture-Recognition/GUI.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="327">
               <caret line="129" column="34" lean-forward="true" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
+=======
+      <file leaf-file-name="opencv2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/opencv2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
               <folding />
             </state>
           </provider>
@@ -133,6 +206,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="newGUI2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI2.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,6 +217,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -182,6 +258,7 @@
         <option value="$PROJECT_DIR$/opcv_wuyifan/DL-Gesture-Recognition/trainUCF101.py" />
         <option value="$PROJECT_DIR$/opcv_wuyifan/DL-Gesture-Recognition/datasets/GestureDataSet.py" />
         <option value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI2.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/opcv_wuyifan/DL-Gesture-Recognition/GUI.py" />
       </list>
     </option>
@@ -191,6 +268,18 @@
     <option name="y" value="56" />
     <option name="width" value="1400" />
     <option name="height" value="980" />
+=======
+        <option value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/net/GUI.py" />
+        <option value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="116" />
+    <option name="y" value="23" />
+    <option name="width" value="1225" />
+    <option name="height" value="777" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -207,6 +296,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,6 +342,103 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+=======
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL-nice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL-nice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL-nice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL-nice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opcv_yuchenbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL-nice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL-nice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opcv_yuchenbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Develop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL-nice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL-nice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opcv_yuchenbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Develop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="develop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL-nice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL-nice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opcv_yuchenbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Develop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="develop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
       <pane id="Scope" />
     </panes>
   </component>
@@ -276,6 +463,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.GUI">
     <configuration name="GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -314,6 +502,10 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="newGUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.newGUI2">
+    <configuration default="false" name="test001" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -325,13 +517,16 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DL-Gesture-Recognition" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test001.py" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <method />
     </configuration>
-    <configuration name="newGUI2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="newGUI2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -346,27 +541,182 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <method />
     </configuration>
+    <configuration default="false" name="hsv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opcv_yuchenbing" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DL-Gesture-Recognition" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opcv_yuchenbing/hsv2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+<<<<<<< HEAD
     <configuration name="printFlag" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="newGUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opcv_wuyifan" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DL-Gesture-Recognition" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opcv_wuyifan/printFlag.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <method />
     </configuration>
+    <configuration default="false" name="opencv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DL-Gesture-Recognition" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/opencv2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DL-Gesture-Recognition" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DL-Gesture-Recognition" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DL-Gesture-Recognition" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DL-Gesture-Recognition" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DL-Gesture-Recognition" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+<<<<<<< HEAD
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.newGUI" />
       <item index="1" class="java.lang.String" itemvalue="Python.convexityDefect" />
@@ -381,6 +731,46 @@
         <item index="2" class="java.lang.String" itemvalue="Python.printFlag" />
         <item index="3" class="java.lang.String" itemvalue="Python.convexityDefect" />
         <item index="4" class="java.lang.String" itemvalue="Python.newGUI" />
+=======
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DL-Gesture-Recognition" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.test001" />
+      <item index="1" class="java.lang.String" itemvalue="Python.newGUI2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.hsv2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.newGUI" />
+      <item index="4" class="java.lang.String" itemvalue="Python.opencv2" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.newGUI2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.opencv2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.newGUI" />
+        <item index="3" class="java.lang.String" itemvalue="Python.hsv2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test001" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
       </list>
     </recent_temporary>
   </component>
@@ -401,6 +791,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -410,6 +801,18 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29545453" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="116" y="23" width="1225" height="777" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26744187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15328467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -419,7 +822,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -472,7 +874,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cv3.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="27">
+=======
+        <state relative-caret-position="255">
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
           <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
@@ -486,6 +892,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testWYF.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="489">
           <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
         </state>
@@ -541,6 +948,100 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/opcv_wuyifan/DL-Gesture-Recognition/predictUCF101.py">
+=======
+        <state relative-caret-position="330">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/C3D_ConvLstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="46" lean-forward="false" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/cell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hsv3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cv3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/hsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py" />
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/opencv2.py">
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
@@ -618,9 +1119,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/opcv_wuyifan/DL-Gesture-Recognition/datasets/GestureDataSet.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="3699">
           <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="1512">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
         </state>
       </provider>
     </entry>
@@ -674,17 +1180,27 @@
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/torch/utils/data/dataloader.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="759">
           <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="1512">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/multiprocessing/context.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="759">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
         </state>
       </provider>
     </entry>
@@ -700,6 +1216,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
         </state>
       </provider>
@@ -711,11 +1228,14 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+=======
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/hsv.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-972">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -726,6 +1246,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-527">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="330">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -734,47 +1258,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/convexityDefect.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="195">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/C3D_ConvLstm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PyQt5/QtGui.pyi" />
+    <entry file="file://$PROJECT_DIR$/net/cell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/drawContour.py">
+=======
+    <entry file="file://$PROJECT_DIR$/net/ops.py">
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#0#10#0" expanded="true" />
+=======
+            <element signature="e#0#18#0" expanded="true" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/opcv_wuyifan/yuchenbing_tuhua.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/net/C3D_ConvLstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="46" lean-forward="false" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/opcv_wuyifan/tuhua.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/cv3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/opcv_wuyifan/printFlag.py">
+=======
+    <entry file="file://$PROJECT_DIR$/erotion.py">
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -782,31 +1345,72 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/opcv_wuyifan/getHSV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/opencv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/opcv_wuyifan/drawRec.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="300">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/opcv_wuyifan/drawContours.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/hsv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI.py">
+=======
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/net/GUI.py">
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -814,8 +1418,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/newGUI2.py">
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="81">
           <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
@@ -835,6 +1440,13 @@
         <state relative-caret-position="327">
           <caret line="129" column="34" lean-forward="true" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
           <folding />
+=======
+        <state relative-caret-position="255">
+          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+>>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
         </state>
       </provider>
     </entry>
