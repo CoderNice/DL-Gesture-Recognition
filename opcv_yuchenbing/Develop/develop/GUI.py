@@ -15,7 +15,7 @@ from PyQt5.QtWidgets import QWidget, QApplication, QGroupBox, QPushButton, QLabe
 '''
 
 
-class Communicate(QObject):
+class Communicatce(QObject):
     closeApp = pyqtSignal()
 
 
