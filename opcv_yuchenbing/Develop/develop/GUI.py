@@ -15,7 +15,7 @@ from PyQt5.QtWidgets import QWidget, QApplication, QGroupBox, QPushButton, QLabe
 '''
 
 
-class Communicatce(QObject):
+class Communicate(QObject):
     closeApp = pyqtSignal()
 
 
@@ -56,12 +56,15 @@ class Thread(QThread):
             gray_img = cv2.resize(gray_img, (500, 500))
             gray_img = cv2.GaussianBlur(gray_img, (21, 21), 0)
 
+            # 画框
+            rectangle1=cv2.rectangle(cur_frame, (100, 100), (300, 300), (0, 255, 0), 3)
+            rectangle2=cv2.rectangle(cur_frame, (980, 100), (1180, 300), (0, 255, 0), 3)
+
             #将图片显示到gui
             rgbImage = cv2.cvtColor(cur_frame, cv2.COLOR_BGR2RGB)
             convertToQtFormat = QImage(rgbImage.data, rgbImage.shape[1], rgbImage.shape[0], QImage.Format_RGB888)
             convertToQtFormat = QPixmap.fromImage(convertToQtFormat)
             p = convertToQtFormat.scaled(640, 480, Qt.KeepAspectRatio)
-
 
 
 
