@@ -15,7 +15,7 @@ from PyQt5.QtWidgets import QWidget, QApplication, QGroupBox, QPushButton, QLabe
 
 class Communicate(QObject):
     closeApp = pyqtSignal()
-    closeApp2 = pyqtSignal(self,QTextEdit)
+    closeApp2 = pyqtSignal(QTextEdit)
 
 class Thread(QThread):
     changePixmap = pyqtSignal(QPixmap)
