@@ -76,8 +76,13 @@
       <file leaf-file-name="GUI3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GUI3.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="354">
+              <caret line="59" column="84" lean-forward="true" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
+=======
             <state relative-caret-position="756">
               <caret line="73" column="56" lean-forward="true" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
+>>>>>>> 9daf8e09d7373c690577785155b87c9c29488d35
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -712,8 +717,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI3.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="354">
+          <caret line="59" column="84" lean-forward="true" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
+=======
         <state relative-caret-position="756">
           <caret line="73" column="56" lean-forward="true" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
+>>>>>>> 9daf8e09d7373c690577785155b87c9c29488d35
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
