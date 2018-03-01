@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan 19 15:19:50 2018
@@ -87,6 +88,11 @@ import cv2
 import numpy as np
 
 >>>>>>> parent of 90c774f... 增加一个gui窗口
+=======
+import cv2
+import numpy as np
+
+>>>>>>> parent of 90c774f... 增加一个gui窗口
 img=cv2.imread('00224.jpg',0)
 img2=img[100:200,0:100]
 print(type(img))
@@ -97,6 +103,10 @@ print(type(img))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+#cv2.imshow(img2)
+>>>>>>> parent of 90c774f... 增加一个gui窗口
+=======
 #cv2.imshow(img2)
 >>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
