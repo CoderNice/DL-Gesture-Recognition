@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-<<<<<<< HEAD
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/opcv_wuyifan/DL-Gesture-Recognition/nets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/opcv_wuyifan/DL-Gesture-Recognition/datasets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/opcv_wuyifan/DL-Gesture-Recognition/utils" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-=======
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.5.2 (/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5)" jdkType="Python SDK" />
->>>>>>> 61e9d82870d3356d8ae9de43c6d8e014d464e4e7
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
