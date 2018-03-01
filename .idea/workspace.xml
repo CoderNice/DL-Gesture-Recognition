@@ -15,7 +15,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="GUI.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GUI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-240">
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GUI3.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GUI3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/opcv_wuyifan/GUI3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="2820">
+              <caret line="188" column="14" lean-forward="true" selection-start-line="188" selection-start-column="14" selection-end-line="188" selection-end-column="14" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -141,6 +141,7 @@
       <find>print</find>
       <find>except</find>
       <find>imshow</find>
+      <find>show</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,7 +166,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="477" />
+    <option name="x" value="144" />
+    <option name="y" value="94" />
     <option name="width" value="1234" />
     <option name="height" value="777" />
   </component>
@@ -528,7 +530,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="477" width="1234" height="777" extended-state="0" />
+    <frame x="144" y="94" width="1234" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26545754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -900,20 +902,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opcv_wuyifan/GUI3.py">
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="-240">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py">
+    <entry file="file://$PROJECT_DIR$/opcv_wuyifan/GUI3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="2820">
+          <caret line="188" column="14" lean-forward="true" selection-start-line="188" selection-start-column="14" selection-end-line="188" selection-end-column="14" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
