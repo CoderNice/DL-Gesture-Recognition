@@ -5,7 +5,7 @@
 """
 import cv2
 import numpy as np
-<<<<<<< HEAD
+
 import time
 
 #import imutils
@@ -14,13 +14,13 @@ import time
 
 cap=cv2.VideoCapture(0)
 time.sleep(2)
-=======
+
 import imutils
 import time
 
 cap=cv2.VideoCapture(0)
 time.sleep(1)
->>>>>>> 50505e320aed141a6084ddba0df59ef62fd62f43
+
 while(1):
 # 获取每一帧
     ret,frame=cap.read()
