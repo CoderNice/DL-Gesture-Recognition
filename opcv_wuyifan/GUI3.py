@@ -1,10 +1,12 @@
 import sys
 import time
 import cv2
-from PyQt5.QtCore import pyqtSignal, QObject,QThread,Qt
+import tensorflow as tf
+import numpy as np
+from PyQt5.QtCore import pyqtSignal, QObject,QThread,Qt,QStringListModel
 from PyQt5.QtGui import QPixmap, QImage
 from PyQt5.QtWidgets import QWidget, QApplication, QGroupBox, QPushButton, QLabel, QVBoxLayout, QHBoxLayout, QTextEdit
-
+#from predictUCF101 import process_img
 '''
 类说明:
 1.
@@ -15,17 +17,20 @@ from PyQt5.QtWidgets import QWidget, QApplication, QGroupBox, QPushButton, QLabe
 
 class Communicate(QObject):
     closeApp = pyqtSignal()
-    closeApp2 = pyqtSignal(QTextEdit)
+
 
 class Thread(QThread):
     changePixmap = pyqtSignal(QPixmap)
+    changeText = pyqtSignal(QStringListModel)
 
     def __init__(self, parent=None):
         QThread.__init__(self, parent=parent)
         self.flagCyc = True
+        self.flagVedio = False
     def run(self):
         # print('可以调用摄像头函数了')
         self.flagCyc = True
+        self.imgNum = 0
         camera = cv2.VideoCapture(0)
         if camera is None:
             print('请先连接摄像头')
@@ -34,7 +39,6 @@ class Thread(QThread):
         fps = 5  # 帧率
         pre_frame = None  # 总是取前一帧做为背景（不用考虑环境影响）
 
-        play_music = False
         count = 0
         #print('我在地方1死掉了')
 
@@ -51,16 +55,55 @@ class Thread(QThread):
             gray_img = cv2.cvtColor(cur_frame, cv2.COLOR_BGR2GRAY)
             gray_img = cv2.resize(gray_img, (500, 500))
             gray_img = cv2.GaussianBlur(gray_img, (21, 21), 0)
+
+            # 画框
+            rectangle1=cv2.rectangle(cur_frame, (50,100), (200,250), (0, 255, 0), 3)
+            rectangle2=cv2.rectangle(cur_frame, (450,100), (600, 250), (0, 255, 0), 3)
+
+
+            cv2.imshow('img1',cur_frame)
+
+            '''
+            #截取图片
+            imgRec1=cur_frame[50:200,100:250]
+            imgRec2=cur_frame[450:600,100:250]
+            cv2.imshow(imgRec1)
+
+            
+            #对截取图片进行二值处理：接近肤色的变成白色，其它的变成黑色
+            converted1 = cv2.cvtColor(imgRec1, cv2.COLOR_BGR2HSV)
+            imgray = cv2.cvtColor(imgRec1, cv2.COLOR_BGR2GRAY)
+
+            lower = np.array([0, 48, 80], dtype="uint8")
+            upper = np.array([20, 255, 255], dtype="uint8")
+
+            skinMask1 = cv2.inRange(converted1, lower, upper)
+
+            #判断二值处理后的图片 是否有足够的多的白点面积
+            countWhite=0
+            for pix in range(imgRec1):
+                if pix==255:
+                    countWhite+=1
+            if countWhite>1000:
+                print('手在框框内')
+            '''
+
+            #将图片显示到gui
             rgbImage = cv2.cvtColor(cur_frame, cv2.COLOR_BGR2RGB)
             convertToQtFormat = QImage(rgbImage.data, rgbImage.shape[1], rgbImage.shape[0], QImage.Format_RGB888)
             convertToQtFormat = QPixmap.fromImage(convertToQtFormat)
-            p = convertToQtFormat.scaled(360, 640, Qt.KeepAspectRatio)
-            print(p.size())
+            p = convertToQtFormat.scaled(640, 480, Qt.KeepAspectRatio)
+
+
+
+            #print(p)
+            #QImage.scaled(self,rgbImage)
+
+            #改变shape？
+            print(rgbImage.shape)
             self.changePixmap.emit(p)
-            #img = QImage(cur_frame, cur_frame.shape[1], cur_frame.shape[0], QImage.Format_RGB888)
-            #pix = QPixmap.fromImage(img)
-            #self.video_frame.setPixmap(pix)
-            #print('我在地方3死掉了')
+            #self.changeText.emit(q)
+
             if pre_frame is None:
                 pre_frame = gray_img
             else:
@@ -74,20 +117,28 @@ class Thread(QThread):
                     if cv2.contourArea(c) > 1000:  # 设置敏感度
                         print('动了')
                         flag = False
+                        self.flagVedio = True
                         count = 0
                         continue
                     else:
-                        # print(cv2.contourArea(c))
-                        # print("前一帧和当前帧一样了, 有什么东西不动!")
-                        play_music = True
                         break
-                if flag:
+                if self.flagVedio:
+                    self.imgNum += 1
+                    print("1")
+                    #写入文件夹 还不OK
+                    # cv2.imencode('.jpg', rgbImage)[1].tofile('images/')
+
+                if flag and self.flagVedio:
                     count += 1
                 if count == 10:
                     count = 0
-                    print('调用了神经网络')
+                    print('调用神经网络')
+                    self.flagVedio = False
+                    #process_img('images/',self.imgNum)
+
+                    #还未完成，得到的文字emit到label
                 pre_frame = gray_img
-                #print('我在地方4死掉了')
+
 
             #camera.release()
             #cv2.destroyAllWindows()
@@ -116,14 +167,9 @@ class GUI(QWidget):
         layout = QHBoxLayout()
         self.vedioLabel = QLabel(self)
         self.th.changePixmap.connect(self.vedioLabel.setPixmap)
-
-        #vedioLabel = QLabel("放图片o oooooooooooooo")
-        #pixmap = QPixmap('thumb.jpg')
-        #vedioLabel.setPixmap(pixmap)
-        #vedioLabel.show()
-        # nameLabel.setPicture(self,)
-        # QLabel.setPicture(nameLabel,'thumb.jpg')
-        #layout.addWidget(vedioLabel)
+        self.vedioLabel.setFixedWidth(640)
+        self.vedioLabel.setFixedHeight(360)
+        layout.addWidget(self.vedioLabel)
         self.hboxGroupBox.setLayout(layout)
         self.setWindowTitle('Basic Layout')
 
@@ -136,15 +182,17 @@ class GUI(QWidget):
         #end.setCheckable(True)
         start.clicked.connect(lambda: self.cStart.closeApp.emit())
         end.clicked.connect(lambda: self.cEnd.closeApp.emit())
-        text = QTextEdit()
-        text.setPlainText("...")
-        layout.addWidget(text)
+        self.text = QTextEdit()
+        self.text.setPlainText("...")
+        self.th.changeText.connect(self.text.setText)
+        layout.addWidget(self.text)
         layout.addWidget(start)
         layout.addWidget(end)
         self.vboxGroupBox.setLayout(layout)
         # 信号和槽
         self.cStart = Communicate()
         self.cStart.closeApp.connect(lambda: self.th.start())
+        self.th.wait()
         self.cEnd = Communicate()
         self.cEnd.closeApp.connect(lambda: self.th.exit())
 
