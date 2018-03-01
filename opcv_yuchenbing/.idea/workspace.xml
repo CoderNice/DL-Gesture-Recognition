@@ -73,6 +73,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="newGUI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Develop/develop/newGUI.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,6 +83,8 @@
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
 =======
+=======
+>>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
 >>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
@@ -102,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               <folding />
 >>>>>>> parent of 90c774f... 增加一个gui窗口
             </state>
@@ -113,6 +117,8 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="10" />
+=======
+>>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
 >>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
@@ -148,6 +154,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 90c774f... 增加一个gui窗口
+=======
 >>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
 >>>>>>> parent of 90c774f... 增加一个gui窗口
@@ -167,6 +176,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 90c774f... 增加一个gui窗口
+=======
 >>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
 >>>>>>> parent of 90c774f... 增加一个gui窗口
@@ -263,8 +275,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
+=======
+>>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
 >>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
@@ -607,12 +622,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <item index="0" class="java.lang.String" itemvalue="Python.C3D_ConvLstm" />
         <item index="1" class="java.lang.String" itemvalue="Python.ops" />
         <item index="2" class="java.lang.String" itemvalue="Python.newGUI2" />
         <item index="3" class="java.lang.String" itemvalue="Python.eventsource" />
         <item index="4" class="java.lang.String" itemvalue="Python.testvedio" />
 =======
+=======
+>>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
 >>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
@@ -646,6 +664,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -686,6 +705,11 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1973466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> parent of 90c774f... 增加一个gui窗口
+=======
+    <frame x="380" y="218" width="1228" height="730" extended-state="7" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1973466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> parent of 90c774f... 增加一个gui窗口
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -696,7 +720,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24294671" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24263039" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24263039" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
 >>>>>>> parent of 90c774f... 增加一个gui窗口
@@ -1240,6 +1268,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Develop/develop/eventsource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Develop/develop/opencv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#93#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Develop/develop/convexityDefect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1318,6 +1363,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 90c774f... 增加一个gui窗口
+=======
 >>>>>>> parent of 90c774f... 增加一个gui窗口
 =======
 >>>>>>> parent of 90c774f... 增加一个gui窗口
