@@ -60,9 +60,6 @@ class Thread(QThread):
             rectangle1=cv2.rectangle(cur_frame, (50,100), (200,250), (0, 255, 0), 3)
             rectangle2=cv2.rectangle(cur_frame, (450,100), (600, 250), (0, 255, 0), 3)
 
-
-            cv2.imshow('img1',cur_frame)
-
             '''
             #截取图片
             imgRec1=cur_frame[50:200,100:250]
@@ -192,7 +189,6 @@ class GUI(QWidget):
         # 信号和槽
         self.cStart = Communicate()
         self.cStart.closeApp.connect(lambda: self.th.start())
-        self.th.wait()
         self.cEnd = Communicate()
         self.cEnd.closeApp.connect(lambda: self.th.exit())
 
