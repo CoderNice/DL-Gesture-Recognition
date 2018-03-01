@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d38df452-b574-4b17-88ab-cef8ae890bb6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testCrop.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testPyttsx.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testPart.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hand_tracking/track_improve.py" afterPath="$PROJECT_DIR$/hand_tracking/track_improve.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py" afterPath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/hsv.py" afterPath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/hsv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testPyttsx.py" afterPath="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testPyttsx.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,10 +23,22 @@
       <file leaf-file-name="GUI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testPart.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testPart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+              <folding>
+                <element signature="e#23#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,9 +57,21 @@
       <file leaf-file-name="testPyttsx.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testPyttsx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="105">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nsss.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pyttsx3/drivers/nsss.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding>
+                <element signature="e#1#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,8 +79,8 @@
       <file leaf-file-name="engine.py" pinned="false" current-in-tab="false">
         <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pyttsx/engine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+            <state relative-caret-position="945">
+              <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
               <folding>
                 <element signature="e#768#788#0" expanded="true" />
               </folding>
@@ -111,6 +133,7 @@
     <findStrings>
       <find>print</find>
       <find>except</find>
+      <find>imshow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,13 +152,14 @@
         <option value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testCrop.py" />
         <option value="/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pyttsx/engine.py" />
         <option value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testPyttsx.py" />
+        <option value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testPart.py" />
         <option value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="198" />
-    <option name="y" value="477" />
+    <option name="x" value="-25" />
+    <option name="y" value="30" />
     <option name="width" value="1235" />
     <option name="height" value="777" />
   </component>
@@ -328,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testPyttsx">
+  <component name="RunManager" selected="Python.GUI">
     <configuration default="false" name="hsv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -363,23 +387,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="track_improve" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hand_tracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DL-Gesture-Recognition" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hand_tracking/track_improve.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="testPyttsx" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -410,6 +417,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DL-Gesture-Recognition" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testCrop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testPart" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DL-Gesture-Recognition" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testPart.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -551,17 +575,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.hsv2" />
       <item index="1" class="java.lang.String" itemvalue="Python.GUI" />
-      <item index="2" class="java.lang.String" itemvalue="Python.track_improve" />
-      <item index="3" class="java.lang.String" itemvalue="Python.testPyttsx" />
-      <item index="4" class="java.lang.String" itemvalue="Python.testCrop" />
+      <item index="2" class="java.lang.String" itemvalue="Python.testPyttsx" />
+      <item index="3" class="java.lang.String" itemvalue="Python.testCrop" />
+      <item index="4" class="java.lang.String" itemvalue="Python.testPart" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.testPyttsx" />
-        <item index="1" class="java.lang.String" itemvalue="Python.GUI" />
-        <item index="2" class="java.lang.String" itemvalue="Python.testCrop" />
-        <item index="3" class="java.lang.String" itemvalue="Python.hsv2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.track_improve" />
+        <item index="0" class="java.lang.String" itemvalue="Python.GUI" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testPart" />
+        <item index="2" class="java.lang.String" itemvalue="Python.testPyttsx" />
+        <item index="3" class="java.lang.String" itemvalue="Python.testCrop" />
+        <item index="4" class="java.lang.String" itemvalue="Python.hsv2" />
       </list>
     </recent_temporary>
   </component>
@@ -582,7 +606,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="198" y="477" width="1235" height="777" extended-state="0" />
+    <frame x="-25" y="30" width="1235" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26688632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -590,7 +614,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3109489" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.097810216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -612,20 +636,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cv3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erotion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testWYF.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -925,7 +935,7 @@
         <state relative-caret-position="225">
           <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
-            <element signature="e#759#785#0" expanded="true" />
+            <element signature="e#759#785#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -948,19 +958,21 @@
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pyttsx/engine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+        <state relative-caret-position="945">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
           <folding>
             <element signature="e#768#788#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testPyttsx.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pyttsx3/drivers/nsss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#1#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -972,10 +984,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testPyttsx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/testPart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/opcv_yuchenbing/Develop/develop/GUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

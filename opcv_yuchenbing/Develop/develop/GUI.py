@@ -1,7 +1,6 @@
 import sys
 import time
 import cv2
-import tensorflow as tf
 import numpy as np
 from PyQt5.QtCore import pyqtSignal, QObject,QThread,Qt,QStringListModel
 from PyQt5.QtGui import QPixmap, QImage
@@ -66,13 +65,12 @@ class Thread(QThread):
             convertToQtFormat = QPixmap.fromImage(convertToQtFormat)
             p = convertToQtFormat.scaled(640, 480, Qt.KeepAspectRatio)
 
-            crop_img = cur_frame[100:400, 50:300]
 
             #print(crop_img)
             #QImage.scaled(self,rgbImage)
 
-            #判断框框里是否有近似肤色的hsv
-            # 转换到HSV
+            #self.judgeHsv(rectangle1)
+            #self.judgeHsv(rectangle2)
             converted = cv2.cvtColor(rectangle1, cv2.COLOR_BGR2HSV)
 
             # 转换到gray
@@ -95,8 +93,9 @@ class Thread(QThread):
             cnt = contours[0]
             area = cv2.contourArea(cnt)
             print(area)
-            if cnt > 0:
+            if area > 0:
                 print("people!")
+            cv2.imshow('sum', image)
 
 
             '''
@@ -154,6 +153,35 @@ class Thread(QThread):
     def exit(self, returnCode=0):
         self.flagCyc = False
 
+    def judgeHsv(self,rectangle):
+        # 判断框框里是否有近似肤色的hsv
+        # 转换到HSV
+        converted = cv2.cvtColor(rectangle, cv2.COLOR_BGR2HSV)
+
+        # 转换到gray
+        imgray = cv2.cvtColor(rectangle, cv2.COLOR_BGR2GRAY)
+
+        # 设定蓝色的阈值
+        lower = np.array([0, 48, 80], dtype="uint8")
+        upper = np.array([20, 255, 255], dtype="uint8")
+
+        # 根据阈值构建掩模
+        skinMask = cv2.inRange(converted, lower, upper)
+        kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (11, 11))
+        skinMask = cv2.erode(skinMask, kernel, iterations=2)
+        skinMask = cv2.dilate(skinMask, kernel, iterations=2)
+        skinMask = cv2.GaussianBlur(skinMask, (3, 3), 0)
+        # skin = cv2.bitwise_and(frame, frame, mask = skinMask)
+        ret, thresh = cv2.threshold(imgray, 127, 255, 0)
+        image, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
+        cnt = contours[0]
+        area = cv2.contourArea(cnt)
+        print(area)
+        if area > 0:
+            print("people!")
+        cv2.imshow('sum', image)
+
 
 class GUI(QWidget):
     def __init__(self):
@@ -200,6 +228,7 @@ class GUI(QWidget):
         # 信号和槽
         self.cStart = Communicate()
         self.cStart.closeApp.connect(lambda: self.th.start())
+        self.th.wait()
         self.cEnd = Communicate()
         self.cEnd.closeApp.connect(lambda: self.th.exit())
 
