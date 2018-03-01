@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d38df452-b574-4b17-88ab-cef8ae890bb6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d38df452-b574-4b17-88ab-cef8ae890bb6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="GUI3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/opcv_wuyifan/GUI3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1518">
-              <caret line="73" column="32" lean-forward="false" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+            <state relative-caret-position="2835">
+              <caret line="189" column="23" lean-forward="false" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -168,10 +166,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
-    <option name="y" value="356" />
+    <option name="x" value="-100" />
+    <option name="y" value="260" />
     <option name="width" value="1234" />
-    <option name="height" value="492" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -532,7 +530,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="356" width="1234" height="492" extended-state="0" />
+    <frame x="-100" y="260" width="1234" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26380873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -916,8 +914,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/opcv_wuyifan/GUI3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1518">
-          <caret line="73" column="32" lean-forward="false" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+        <state relative-caret-position="2835">
+          <caret line="189" column="23" lean-forward="false" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
