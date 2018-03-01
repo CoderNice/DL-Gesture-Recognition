@@ -118,8 +118,7 @@ def drawl_contour(contour):
     img = cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
     cv2.drawContours(frame, [hull], -1, (255, 255, 255), 2)
-    
-    
+
 def check_face(img, face_cascade, contours):
     new_contours = []
     for contour in contours:

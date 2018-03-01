@@ -66,13 +66,49 @@ class Thread(QThread):
             convertToQtFormat = QPixmap.fromImage(convertToQtFormat)
             p = convertToQtFormat.scaled(640, 480, Qt.KeepAspectRatio)
 
+            crop_img = cur_frame[100:400, 50:300]
 
-
-            #print(p)
+            #print(crop_img)
             #QImage.scaled(self,rgbImage)
 
-            #改变shape？
-            print(rgbImage.shape)
+            #判断框框里是否有近似肤色的hsv
+            # 转换到HSV
+            converted = cv2.cvtColor(rectangle1, cv2.COLOR_BGR2HSV)
+
+            # 转换到gray
+            imgray = cv2.cvtColor(rectangle1, cv2.COLOR_BGR2GRAY)
+
+            # 设定蓝色的阈值
+            lower = np.array([0, 48, 80], dtype="uint8")
+            upper = np.array([20, 255, 255], dtype="uint8")
+
+            # 根据阈值构建掩模
+            skinMask = cv2.inRange(converted, lower, upper)
+            kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (11, 11))
+            skinMask = cv2.erode(skinMask, kernel, iterations=2)
+            skinMask = cv2.dilate(skinMask, kernel, iterations=2)
+            skinMask = cv2.GaussianBlur(skinMask, (3, 3), 0)
+            # skin = cv2.bitwise_and(frame, frame, mask = skinMask)
+            ret, thresh = cv2.threshold(imgray, 127, 255, 0)
+            image, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
+            cnt = contours[0]
+            area = cv2.contourArea(cnt)
+            print(area)
+            if cnt > 0:
+                print("people!")
+
+
+            '''
+
+            rect = cv2.minAreaRect(cnt)
+            box = cv2.boxPoints(rect)
+            box = np.int0(box)
+            im = cv2.drawContours(skinMask,[box],0,(0,255,255),2)
+            '''
+            #x, y, w, h = cv2.boundingRect(cnt)
+            #frame = cv2.rectangle(skinMask, (x, y), (x + w, y + h), (0, 255, 0), 2)
+            #print(rgbImage.shape)
             self.changePixmap.emit(p)
             #self.changeText.emit(q)
 
@@ -87,7 +123,7 @@ class Thread(QThread):
                 flag = True
                 for c in contours:
                     if cv2.contourArea(c) > 1000:  # 设置敏感度
-                        print('动了')
+                        #print('动了')
                         flag = False
                         self.flagVedio = True
                         count = 0
@@ -96,7 +132,7 @@ class Thread(QThread):
                         break
                 if self.flagVedio:
                     self.imgNum += 1
-                    print("1")
+                    #print("1")
                     #写入文件夹 还不OK
                     # cv2.imencode('.jpg', rgbImage)[1].tofile('images/')
 
@@ -104,7 +140,7 @@ class Thread(QThread):
                     count += 1
                 if count == 10:
                     count = 0
-                    print('调用神经网络')
+                    #print('调用神经网络')
                     self.flagVedio = False
                     #process_img('images/',self.imgNum)
 
